@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>974</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>510</y>
+      <width>248</width>
+      <height>197</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>150</y>
+      <width>331</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>人员信息</string>
+    </property>
+    <widget class="QListWidget" name="personListWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>22</y>
+       <width>121</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>70</y>
+       <width>123</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>添加</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>40</y>
+       <width>177</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>姓名：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>130</y>
+      <width>411</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>项目基本信息</string>
+    </property>
+    <widget class="QListWidget" name="projectPersonListWidget">
+     <property name="geometry">
+      <rect>
+       <x>178</x>
+       <y>22</y>
+       <width>163</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="projectListWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>22</y>
+       <width>162</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>331</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>假期信息</string>
+    </property>
+    <widget class="QListWidget" name="holidayListWidget">
+     <property name="geometry">
+      <rect>
+       <x>21</x>
+       <y>31</y>
+       <width>134</width>
+       <height>192</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>163</x>
+       <y>33</y>
+       <width>151</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>手动输入假日：yyyy-mm-dd</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="lineEdit"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>添加</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="text">
+           <string>日历所选添加</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>760</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>读取人员</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>974</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
